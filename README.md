@@ -90,6 +90,7 @@ TODO Move language docs to docs.codewars.com/languages/
 - [BF](https://github.com/codewars/codewars.com/wiki/Language-BF)
 - [CFML](https://github.com/codewars/codewars.com/wiki/Language-CFML)
 - [COBOL](https://github.com/codewars/codewars.com/wiki/Language-COBOL)
+- [CommonLisp](https://github.com/codewars/codewars.com/wiki/Language-CommonLisp)
 - [Elm](https://github.com/codewars/codewars.com/wiki/Language-Elm)
 - [Erlang](https://github.com/codewars/codewars.com/wiki/Language-Erlang)
 - [Factor](https://github.com/codewars/codewars.com/wiki/Language-Factor)
@@ -112,7 +113,6 @@ TODO Move language docs to docs.codewars.com/languages/
 ### Partial (No Test Support)
 
 - D
-- Common Lisp
 - Perl
 - Raku
 
