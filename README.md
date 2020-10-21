@@ -102,10 +102,12 @@ TODO Move language docs to docs.codewars.com/languages/
 - [Nim](https://github.com/codewars/codewars.com/wiki/Language-Nim)
 - [Objective-C](https://github.com/codewars/codewars.com/wiki/Language-Objective-C)
 - [OCaml](https://github.com/codewars/codewars.com/wiki/Language-OCaml)
+- [Perl](https://github.com/codewars/codewars.com/wiki/Language-Perl)
 - [PowerShell](https://github.com/codewars/codewars.com/wiki/Language-PowerShell)
 - [Prolog](https://github.com/codewars/codewars.com/wiki/Language-Prolog)
 - [PureScript](https://github.com/codewars/codewars.com/wiki/Language-PureScript)
 - [R](https://github.com/codewars/codewars.com/wiki/Language-R)
+- [Raku](https://github.com/codewars/codewars.com/wiki/Language-Raku)
 - [Reason](https://github.com/codewars/codewars.com/wiki/Language-Reason)
 - [Solidity](https://github.com/codewars/codewars.com/wiki/Language-Solidity)
 - [VB.NET](https://github.com/codewars/codewars.com/wiki/Language-VB)
@@ -113,8 +115,6 @@ TODO Move language docs to docs.codewars.com/languages/
 ### Partial (No Test Support)
 
 - D
-- Perl
-- Raku
 
 ### Requested
 
