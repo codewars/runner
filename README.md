@@ -102,6 +102,7 @@ TODO Move language docs to docs.codewars.com/languages/
 - [Nim](https://github.com/codewars/codewars.com/wiki/Language-Nim)
 - [Objective-C](https://github.com/codewars/codewars.com/wiki/Language-Objective-C)
 - [OCaml](https://github.com/codewars/codewars.com/wiki/Language-OCaml)
+- [Pascal](https://github.com/codewars/codewars.com/wiki/Language-Pascal)
 - [Perl](https://github.com/codewars/codewars.com/wiki/Language-Perl)
 - [PowerShell](https://github.com/codewars/codewars.com/wiki/Language-PowerShell)
 - [Prolog](https://github.com/codewars/codewars.com/wiki/Language-Prolog)
