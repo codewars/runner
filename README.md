@@ -7,6 +7,10 @@ Issue tracker for CodeRunner used on [Codewars][codewars] and [Qualified][qualif
 Please report any language related issues here.  
 For anything else about Codewars, please use [codewars/codewars.com].
 
+## Feature Requests
+
+Please open new issues using appropriate issue templates.
+
 ## Code
 
 CodeRunner itself is not open source, but it's roughly equivalent to the following:
@@ -120,10 +124,6 @@ TODO Move language docs to docs.codewars.com/languages/
 ### Requested
 
 See issues [with language request label][language-requests].
-
-## Feature Requests
-
-Please open new issues using appropriate issue templates.
 
 [codewars]: https://www.codewars.com
 [qualified]: https://www.qualified.io
