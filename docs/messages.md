@@ -14,7 +14,7 @@ CodeRunner uses a simple line-based messages to collect test results and to cont
 <LOG:MODE?:LABEL?>MESSAGE
 ```
 
-Any newline (`\n`) _within_ a message must be replaced with `<:LF:>`. To prevent users' outputs without trailing newline from interering, messages should prepend `\n`.
+Any newline (`\n`) _within_ a message must be replaced with `<:LF:>`. To prevent users' outputs without trailing newline from interfering, messages should prepend `\n`.
 
 > `DESCRIBE` and `IT` comes from BDD test frameworks that was originally used. Think of them as "group" and "test" respectively.
 
@@ -24,13 +24,13 @@ Any newline (`\n`) _within_ a message must be replaced with `<:LF:>`. To prevent
 Many test report formats exist, but we needed:
 
 1. Line-based format so that users can see partial results after unexpected test termination (e.g., timeout, crash).
-2. Robust format that preserves the outputs from users' code even without test framework capturing and ideally preserve the timing. (e.g., user's logs does not interfere with the test report and it can be displayed under the relevant test case).
+2. Robust format that preserves the outputs from users' code even without test framework capturing and ideally preserve the timing. (e.g., user's logs does not interfere with the test report, and it can be displayed under the relevant test case).
 3. Simple format to make it as easy as possible to implement in any language.
 4. Flexible format to allow authors to produce helpful output. (e.g., useful failure messages, controlling how a message is displayed, images and even interactive output with HTML+JS)
 
 Full XML/JSON reports produced after the test completes is not an option because tests can terminate earlier (1) and XML/JSON may not be easy to work with in some languages (3). TAP (Test Anything Protocol) can easily break when user's code outputs to STDOUT (2), more difficult to implement (3) and not flexible enough (4). TeamCity messages are very similar, but it's more complex (3).
 
-CodeRunner supports over 55 languages at the moment (some with more than one test frameworks) and this has worked well so far for our purpose. For some test frameworks without event hooks, we fall back to post processing. For example, generating messages from full XML/JSON reports or translating newline delimited JSON outputs to our messages.
+CodeRunner supports over 55 languages at the moment (some with more than one test frameworks) and this has worked well so far for our purpose. For some test frameworks without event hooks, we fall back to post-processing. For example, generating messages from full XML/JSON reports or translating newline delimited JSON outputs to our messages.
 
 
 ## Messages
