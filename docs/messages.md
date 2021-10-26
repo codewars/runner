@@ -53,15 +53,17 @@ A test group can contain test groups, but a test case can only contain test resu
 
 Test case can contain one or more test results, and logs.
 
-### Formatting
+### Displaying
 
-Any line without a prefix described above is assumed to be a log output and rendered as is.
+Any line without a prefix described above is assumed to be a log output and rendered as is in a log container.
 
 > NOTE: On Codewars, it tries to _guess_ if the line should be rendered as HTML for backwards compatibility. However, it should be updated to use the HTML mode explicitly.
 
-- HTML: Prefix the message with `<LOG:HTML:>` to render it as HTML.
-- Labeling: Prefix the message with `<LOG::Custom Label>` to set the label used by the log container.
-- Collapsing: Prefix the message with a label starting with `-` (`<LOG::-Example>`) to collapse the output by default.
+- Explicit HTML: Prefix the message with `<LOG:HTML:>` to render it as HTML.
+- Custom Labeling: Prefix the message with `<LOG::Custom Label>` to set the label used by the log container.
+- Collapsed Logs: Prefix the message with a label starting with `-` (e.g., `<LOG::-Example>`) to collapse the output by default.
+- Adding Tabs: Prefix the message with `<TAB::Label>` to attach to the previous log container in a tab. This can be repeated to attach multiple tabs.
+
 
 
 ## Examples
