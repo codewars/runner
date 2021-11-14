@@ -91,6 +91,7 @@ Feel free to open issues to ask us if you'd like to contribute in other ways.
 - [CFML](https://docs.codewars.com/languages/cfml)
 - [COBOL](https://docs.codewars.com/languages/cobol)
 - [CommonLisp](https://docs.codewars.com/languages/commonlisp)
+- [D](https://docs.codewars.com/languages/d)
 - [Elm](https://docs.codewars.com/languages/elm)
 - [Erlang](https://docs.codewars.com/languages/erlang)
 - [Factor](https://docs.codewars.com/languages/factor)
@@ -112,10 +113,6 @@ Feel free to open issues to ask us if you'd like to contribute in other ways.
 - [Reason](https://docs.codewars.com/languages/reason)
 - [Solidity](https://docs.codewars.com/languages/solidity)
 - [VB.NET](https://docs.codewars.com/languages/vb)
-
-### Partial (No Test Support)
-
-- D
 
 ### Requested
 
