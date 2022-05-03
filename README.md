@@ -100,6 +100,7 @@ Feel free to open issues to ask us if you'd like to contribute in other ways.
 - [Haxe](https://docs.codewars.com/languages/haxe)
 - [Idris](https://docs.codewars.com/languages/idris)
 - [Julia](https://docs.codewars.com/languages/julia)
+- [Lambda Calculus](https://docs.codewars.com/languages/lambdacalc)
 - [Nim](https://docs.codewars.com/languages/nim)
 - [Objective-C](https://docs.codewars.com/languages/objc)
 - [OCaml](https://docs.codewars.com/languages/ocaml)
