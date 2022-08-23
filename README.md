@@ -112,6 +112,7 @@ Feel free to open issues to ask us if you'd like to contribute in other ways.
 - [R](https://docs.codewars.com/languages/r)
 - [Raku](https://docs.codewars.com/languages/raku)
 - [Reason](https://docs.codewars.com/languages/reason)
+- [RISC-V](https://docs.codewars.com/languages/riscv)
 - [Solidity](https://docs.codewars.com/languages/solidity)
 - [VB.NET](https://docs.codewars.com/languages/vb)
 
