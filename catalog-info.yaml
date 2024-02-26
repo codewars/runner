@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: codewars-runner
+  description: Issue tracker for Codewars code runner.
+  annotations:
+    github.com/project-slug: codewars/runner
+spec:
+  type: service
+  lifecycle: production
+  owner: qualified-codewars
