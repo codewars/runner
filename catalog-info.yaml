@@ -9,3 +9,7 @@ spec:
   type: service
   lifecycle: production
   owner: qualified-codewars
+  dependsOn:
+    # External public-saas dependencies
+    - component:sentry
+    - component:redislab
